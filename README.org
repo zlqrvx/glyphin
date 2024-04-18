@@ -1,0 +1,30 @@
+#+TITLE: glyphin.el
+
+Glyphin is an emacs minor mode for inputting unicode symbols. It is heavily inspired by the [[http://xahlee.info/emacs/emacs/xmsi-math-symbols-input.html][xah-math-input]] mode.
+
+* Usage
+You can enable glyphin mode locally in the current buffer with M-x glyphin-mode
+Alternativly, you can turn on glyphin mode globally with M-x global-glyphin-mode
+
+With glyphin mode enabled, you can replace the text before point with the C-<space> keybinding.
+
+To use glyphin mode, type the input code that you want to expand (for example type =sum= if you want to input the summation symbol) then press C-SPC and the word =sum= will be replaced with the corresponding symbol (=∑=).
+
+* Examples
+Greek letters:
+| Input | Unicode |
+|-------+---------|
+| a     | α       |
+| w     | ω       |
+| d     | δ       |
+| x     | ξ       |
+
+Math symbols:
+| Input  | Unicode |
+|--------+---------|
+| inf    | ∞       |
+| in     | ∈       |
+| nabla  | ∇       |
+| otimes | ⊗       |
+| sum    | ∑       |
+| bbR    | ℝ       |
